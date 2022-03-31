@@ -1,3 +1,5 @@
+package Unit_01;
+
 public class P2_Task02_ConstantsInJava {
     static final int n = 10;
     final int i=1;
@@ -7,11 +9,11 @@ public class P2_Task02_ConstantsInJava {
     public static void main(String[] args) {
 
         System.out.println(n);
-        System.out.println(i); //Non-static field 'i' cannot be referenced from a static context
+       // System.out.println(i); //Non-static field 'i' cannot be referenced from a static context
         final int x=20;
-        x=10;                   //cannot assign a value to final variable x
-        System.out.println(x); //print the vale of x as 20
-        System.out.println(c); //Cannot access a non-static field c to static
+       // x=10;                   //cannot assign a value to final variable x
+       // System.out.println(x); //print the vale of x as 20
+        //System.out.println(c); //Cannot access a non-static field c to static
     }
     void display(){
         System.out.println(i);
