@@ -1,2 +1,2 @@
 # JAVA-LAB
-All Java Pratice codes.
+All Java Practice codes.
