@@ -1,7 +1,5 @@
 package Unit_02;
 
-import org.w3c.dom.ls.LSOutput;
-
 /*
 ->Extends Keyword
 ->SubClass
@@ -21,7 +19,7 @@ Types of Inheritance that Java Supports:
 Constructor Call Flow in Inheritance:
 ->Default Constructor -> Parameterized Constructor
  */
-public class P8_Task01_InheritanceInJava {
+public class P08_Task01_InheritanceInJava {
     public static void main(String[] args) {
         Three obj3 = new Three();
         obj3.methodOne();
