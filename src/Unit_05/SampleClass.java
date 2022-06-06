@@ -6,12 +6,9 @@ public class SampleClass {
         Statement myStmt = null;
         ResultSet myRs = null;
         try {
-            myConn =
-                    DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcDatabase
-                            ", "anubhav" , "ANUbhav00@");
+            myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcdatabase", "anubhav" , "ANUbhav00@");
             myStmt = myConn.createStatement();
-            int a = myStmt.executeUpdate("INSERT INTO jdbc_tbl VALUES (5, 'Mysql',
-            'Akbar', '2021-02-18')");
+            int a = myStmt.executeUpdate("INSERT INTO jdbc_tbl VALUES(5, 'Mysql', 'Akbar', '2021-02-18')");
             myRs = myStmt.executeQuery("select * from jdbc_tbl");
             while (myRs.next()) {
                 System.out.println(myRs.getString("jdbc_id") + ", " +
