@@ -1,6 +1,6 @@
 package Unit_05;
 import java.sql.*;
-public class SampleClass {
+public class P18_JDBC_Connection {
     public static void main(String[] args) throws SQLException {
         Connection myConn = null;
         Statement myStmt = null;
