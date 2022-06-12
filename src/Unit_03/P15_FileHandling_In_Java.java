@@ -36,7 +36,7 @@ class ABCDEF {
 
     void takeInputFromAFile() throws IOException {
 
-        String path = "/Users/18-RAJAT/git/FirstJavaBasedProject/JavaBasicProject/src/Unit_03/Input.txt";
+        String path = "C:\\Users\\chauh\\Desktop\\01\\TextFile.txt";
         File file = new File(path);
 
         BufferedReader br = new BufferedReader(new FileReader(file));
